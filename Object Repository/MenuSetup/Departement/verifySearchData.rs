@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verifySearchData</name>
+   <tag></tag>
+   <elementGuidId>00164c5b-3c77-4bb6-8f7c-8af73c5d50ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='Controller']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='Controller']</value>
+      <webElementGuid>22acdb3e-1984-441b-bb86-726530008b79</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>searchData</name>
+   <tag></tag>
+   <elementGuidId>049856c7-b732-4ea8-a299-f61fc51c56f5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='s-QuickSearchBar']//child::input[@placeholder='search...']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='s-QuickSearchBar']//child::input[@placeholder='search...']</value>
+      <webElementGuid>586b8828-d9ac-4837-a616-e83d64be1dac</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

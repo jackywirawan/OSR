@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Signin</name>
+   <tag></tag>
+   <elementGuidId>c3d7f184-0380-4958-96db-925318cab276</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id='PTI_OSS_Membership_LoginPanel0_LoginButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@id='PTI_OSS_Membership_LoginPanel0_LoginButton']</value>
+      <webElementGuid>e50f932f-acf8-4a01-a01b-c1801dbf2a4b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

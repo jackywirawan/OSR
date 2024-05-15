@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputNewCode</name>
+   <tag></tag>
+   <elementGuidId>133d5e1c-52d0-436b-8a83-6a1534150062</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name='Code']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@name='Code']</value>
+      <webElementGuid>baad3cc1-8268-4946-9a2d-be0e9d8a351c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

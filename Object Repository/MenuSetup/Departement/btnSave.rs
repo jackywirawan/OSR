@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSave</name>
+   <tag></tag>
+   <elementGuidId>92a3197a-622b-4e90-b08f-504684392b4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='PTI_OSS_Setup_DepartmentDialog8_Toolbar']//child::span[text()='Save']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='PTI_OSS_Setup_DepartmentDialog8_Toolbar']//child::span[text()='Save']</value>
+      <webElementGuid>ce6e19dd-0ae3-435d-b929-a91bcd34e040</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
