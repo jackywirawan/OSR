@@ -17,15 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.100.92:55406/Account/Login?ReturnUrl=%2F')
+WebUI.click(findTestObject('Message_Category/SideBar_Setup'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Message_Category/SideBar_Message_Category'))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.username)
+WebUI.verifyElementVisible(findTestObject('Message_Category/Button_AddNewMessageCategory'))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.passsword)
+WebUI.click(findTestObject('Message_Category/Button_AddNewMessageCategory'))
 
-WebUI.click(findTestObject('Object Repository/Login/btn_Signin'))
+WebUI.setText(findTestObject('Message_Category/Textfield_NameProperties'), 'Bingo')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/verifyHomepage'), 0)
+WebUI.setText(findTestObject('Message_Category/Textfield_Properties'), 'automation testing')
+
+WebUI.click(findTestObject('Message_Category/Button_Group'))
+
+WebUI.setText(findTestObject('Message_Category/Textfield_SeqNo'), '1234567')
+
+WebUI.setText(findTestObject('Message_Category/Textfield_NameProperties'), 'Bingo')
+
+WebUI.click(findTestObject('Message_Category/Button_AddProperties'))
+
+WebUI.setText(findTestObject('Message_Category/Textfield_seqno_detail'), '123456')
+
+WebUI.click(findTestObject('Message_Category/dropdown_message_type'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.sendKeys(findTestObject('Message_Category/dropdown_message_type'), 'Hold by Client')
 

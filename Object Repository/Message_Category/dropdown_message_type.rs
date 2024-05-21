@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Dropdown_MessageType</name>
+   <name>dropdown_message_type</name>
    <tag></tag>
-   <elementGuidId>75b7d959-1316-4d49-ab39-0e7af0dfadb9</elementGuidId>
+   <elementGuidId>f6645dd8-fa02-456f-b0da-84460f316d16</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>select2-chosen-55</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'select2-chosen-55']</value>
+         <value>//*[@id = 's2id_autogen13_search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>select2-chosen-55</value>
-      <webElementGuid>079e78a9-35a4-445a-9a74-eec93a03441d</webElementGuid>
+      <value>s2id_autogen13_search</value>
+      <webElementGuid>7d75b40c-f51f-448a-a979-021fb2c8a1d4</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

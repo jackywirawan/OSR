@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryDialog97_MessageCategoryGroups&quot;]/div[1]/div/div/div/div/div</value>
+         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryDialog7_MessageCategoryGroups&quot;]/div[1]/div/div/div/div/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

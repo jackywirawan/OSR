@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Textfield_Properties</name>
+   <name>Textfield_seqno_detail</name>
    <tag></tag>
-   <elementGuidId>cb920636-2b25-48f2-bf93-b4c19027a6c7</elementGuidId>
+   <elementGuidId>e450e6e0-ac32-497b-ba02-9aef913fc155</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryDialog7_Remarks&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>#PTI_OSS_Setup_MessageCategoryDetailDialog48_SeqNo</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'PTI_OSS_Setup_MessageCategoryDialog82_Name']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

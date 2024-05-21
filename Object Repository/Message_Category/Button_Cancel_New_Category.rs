@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Textfield_Properties</name>
+   <name>Button_Cancel_New_Category</name>
    <tag></tag>
-   <elementGuidId>cb920636-2b25-48f2-bf93-b4c19027a6c7</elementGuidId>
+   <elementGuidId>e225fec3-6df1-48b7-9852-412631d52b19</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryDialog7_Remarks&quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//*[@id=&quot;s-Page&quot;]/div[5]/div[1]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'PTI_OSS_Setup_MessageCategoryDialog82_Name']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

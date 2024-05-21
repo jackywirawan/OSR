@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryDialog7_Remarks&quot;]</value>
+         <value>/html/body/div[5]/div[2]/div/div[2]/form/div/div[1]/div[2]/div[1]/div[3]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>

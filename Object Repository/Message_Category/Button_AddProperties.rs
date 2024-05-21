@@ -11,10 +11,18 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryGroupDialog134_MessageCategoryDetails&quot;]/div[1]/div/div/div/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;PTI_OSS_Setup_MessageCategoryGroupDialog134_MessageCategoryDetails&quot;]/div[1]/div/div/div/div/div</value>
+      <webElementGuid>4fdaabea-12e9-405c-8853-2b3f1d5fae5a</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
