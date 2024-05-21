@@ -17,14 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.100.92:55406/Account/Login?ReturnUrl=%2F')
-
-WebUI.delay(10)
-
-WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.username)
-
-WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.passsword)
-
-WebUI.click(findTestObject('Object Repository/Login/btn_Signin'))
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/verifyHomepage'), 0)

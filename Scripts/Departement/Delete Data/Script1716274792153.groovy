@@ -17,14 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.100.92:55406/Account/Login?ReturnUrl=%2F')
+WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+TestData newDepartment = findTestData('Data Files/Departement')
 
-WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.username)
+code = newDepartment.getValue('code', 1)
 
-WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.passsword)
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/dataNewDept', [('newdept') : code]))
 
-WebUI.click(findTestObject('Object Repository/Login/btn_Signin'))
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnDelete'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/verifyHomepage'), 0)
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnYes(Delete)'))
+
+WebUI.setText(findTestObject('Object Repository/MenuSetup/searchData'), code)
+
+//assert code == ""
+

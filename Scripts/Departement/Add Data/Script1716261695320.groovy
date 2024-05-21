@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Login'), [('uname') : GlobalVariable.username], [('password') : GlobalVariable.password])
+WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/MenuSetup/addNewDepartment'))
 
+TestData newDepartment = findTestData('Data Files/Departement')
+
+code = newDepartment.getValue('code', 1)
+
+name = newDepartment.getValue('name', 1)
+
+WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputNewCode'), code)
+
+WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputNewName'), name)
+
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnSave'))

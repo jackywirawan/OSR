@@ -26,3 +26,5 @@ WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputNewCo
 WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputNewName'), 'Testing1')
 
 WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnSave'))
+
+println('cek')

@@ -17,14 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.100.92:55406/Account/Login?ReturnUrl=%2F')
+//WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+//WebUI.click(findTestObject('Object Repository/MenuSetup/menuOption', [('optionsetup') : 'Setup']))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.username)
+WebUI.click(findTestObject('Object Repository/MenuSetup/menuOption', [('optionsetup') : 'Department']))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.passsword)
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/filterData'))
 
-WebUI.click(findTestObject('Object Repository/Login/btn_Signin'))
+String textfilter = 'Januar Asikin'
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/verifyHomepage'), 0)
+WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputFilter'), textfilter)
+
+WebUI.sendKeys(findTestObject('MenuSetup/Departement/inputFilter'), Keys.chord(Keys.ENTER))
+
+String textOnSearch = WebUI.getText(findTestObject('Object Repository/MenuSetup/Departement/getText(inputFilter)'))
+
+assert (textOnSearch != null) && !(textOnSearch.isEmpty()) : 'Text on search input filter should not be null or empty'
+
+
+
