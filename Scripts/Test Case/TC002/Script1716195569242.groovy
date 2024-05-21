@@ -17,17 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://192.168.100.92:55406/Account/Login?ReturnUrl=%2F')
+WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/MenuSetup/menuOption', [('optionsetup') : 'Setup']))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.username)
+WebUI.click(findTestObject('Object Repository/MenuSetup/menuOption', [('optionsetup') : 'Department']))
 
-WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.passsword)
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/filterData'))
 
-WebUI.click(findTestObject('Object Repository/Login/btn_Signin'))
+WebUI.setText(findTestObject('Object Repository/MenuSetup/Departement/inputFilter'), 'Januar')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Login/verifyHomepage'), 0)
+String textOnSearch = WebUI.getText(findTestObject('Object Repository/MenuSetup/Departement/inputFilter'))
 
-
-
+assert textOnSearch == 'Januar' : "actual text is ${textOnSearch} but expected text is 'Januar'"

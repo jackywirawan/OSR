@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputFilter</name>
+   <tag></tag>
+   <elementGuidId>b9bdbd36-7001-4ed5-8b21-17cb6f174d84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id='s2id_autogen1_search']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@id='s2id_autogen1_search']</value>
+      <webElementGuid>658284be-0dc7-4855-ae86-46abbf569ad3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
