@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputUsername</name>
+   <name>btnDelete</name>
    <tag></tag>
-   <elementGuidId>6d410aaf-cc17-4e62-aab7-be9a270d0986</elementGuidId>
+   <elementGuidId>d7fd057a-b62d-4273-9b8d-2efbd256e562</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name='Username']</value>
+         <value>//span[text()='Delete']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='Username']</value>
-      <webElementGuid>1d818588-485c-4846-9d78-357f4fb3150e</webElementGuid>
+      <value>//span[text()='Delete']</value>
+      <webElementGuid>db2b38e0-ff17-44de-8399-e28ae83f2b6f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

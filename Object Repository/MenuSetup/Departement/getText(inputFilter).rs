@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputUsername</name>
+   <name>getText(inputFilter)</name>
    <tag></tag>
-   <elementGuidId>6d410aaf-cc17-4e62-aab7-be9a270d0986</elementGuidId>
+   <elementGuidId>57594f52-5333-4bee-a63f-6d57e7b2da95</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name='Username']</value>
+         <value>//span[@id='select2-chosen-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='Username']</value>
-      <webElementGuid>1d818588-485c-4846-9d78-357f4fb3150e</webElementGuid>
+      <value>//span[@id='select2-chosen-1']</value>
+      <webElementGuid>56beb8f9-aab7-4bc5-b294-97ca062365f9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputUsername</name>
+   <name>dataNewDept</name>
    <tag></tag>
-   <elementGuidId>6d410aaf-cc17-4e62-aab7-be9a270d0986</elementGuidId>
+   <elementGuidId>1d1177b4-f252-495e-a7a3-41b5bb886d91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@name='Username']</value>
+         <value>//a[text()='${newdept}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@name='Username']</value>
-      <webElementGuid>1d818588-485c-4846-9d78-357f4fb3150e</webElementGuid>
+      <value>//a[text()='${newdept}']</value>
+      <webElementGuid>cc28a476-275d-4544-bb27-c3c77759b24b</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
