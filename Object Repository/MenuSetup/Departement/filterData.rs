@@ -3,7 +3,7 @@
    <description></description>
    <name>filterData</name>
    <tag></tag>
-   <elementGuidId>e789bd82-4816-41d4-ad53-c1e06a18f2a9</elementGuidId>
+   <elementGuidId>e65d8568-8bfe-4bbb-884d-4dc4374afd2a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -18,6 +18,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//div[@id='s2id_PTI_OSS_Setup_DepartmentGrid0_QuickFilter_Username']</value>
-      <webElementGuid>3cacd2cc-9f65-4085-8bb2-4825d915e0ef</webElementGuid>
+      <webElementGuid>64a58900-6abb-4529-baed-f1becafd5ea3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Pages/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 TestData newDepartment = findTestData('Data Files/Departement')
 
 code = newDepartment.getValue('code', 1)
+
+WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/closeFilter'))
 
 WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/dataNewDept', [('newdept') : code]))
 
@@ -31,5 +33,9 @@ WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnYes(Delet
 
 WebUI.setText(findTestObject('Object Repository/MenuSetup/searchData'), code)
 
-//assert code == ""
+println(code)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/MenuSetup/Departement/elementSearch'), 0)
+
+
 

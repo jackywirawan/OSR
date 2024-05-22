@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='PTI_OSS_Setup_DepartmentDialog8_Toolbar']//child::span[text()='Save']</value>
+         <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='PTI_OSS_Setup_DepartmentDialog8_Toolbar']//child::span[text()='Save']</value>
-      <webElementGuid>ce6e19dd-0ae3-435d-b929-a91bcd34e040</webElementGuid>
+      <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
+      <webElementGuid>c0f25be2-dac1-4bee-a5fc-6baf29f3ab04</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

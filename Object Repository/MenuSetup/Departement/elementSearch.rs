@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputFilter</name>
+   <name>elementSearch</name>
    <tag></tag>
-   <elementGuidId>768bc071-52ba-41cd-bd32-8d48bed01749</elementGuidId>
+   <elementGuidId>f0fd65ff-2eaa-48ea-9712-c74c837fe977</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='s2id_autogen1_search']</value>
+         <value>//a[text()='${codeclick}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='s2id_autogen1_search']</value>
-      <webElementGuid>6f58dfb8-2a15-49e5-800b-461ca4904c6a</webElementGuid>
+      <value>//a[text()='${codeclick}']</value>
+      <webElementGuid>0f4e4941-4d7e-4891-8370-53f7d2b29dd1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputFilter</name>
+   <name>btnClose</name>
    <tag></tag>
-   <elementGuidId>768bc071-52ba-41cd-bd32-8d48bed01749</elementGuidId>
+   <elementGuidId>dd4bd22f-9942-430c-a60e-8b3bb7084bb2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id='s2id_autogen1_search']</value>
+         <value>//button[@title='Close']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@id='s2id_autogen1_search']</value>
-      <webElementGuid>6f58dfb8-2a15-49e5-800b-461ca4904c6a</webElementGuid>
+      <value>//button[@title='Close']</value>
+      <webElementGuid>424a5acb-5f98-48cf-ab14-d52f69a76f4c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
