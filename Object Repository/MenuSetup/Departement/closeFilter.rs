@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnSave</name>
+   <name>closeFilter</name>
    <tag></tag>
-   <elementGuidId>92a3197a-622b-4e90-b08f-504684392b4d</elementGuidId>
+   <elementGuidId>43961da1-666b-4402-9a07-7672b5cec3d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
+         <value>//abbr</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
-      <webElementGuid>c0f25be2-dac1-4bee-a5fc-6baf29f3ab04</webElementGuid>
+      <value>//abbr</value>
+      <webElementGuid>512cdde0-5492-4c0d-9eac-6a4e7bc5ba76</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

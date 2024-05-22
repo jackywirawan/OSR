@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnSave</name>
+   <name>filterData</name>
    <tag></tag>
-   <elementGuidId>92a3197a-622b-4e90-b08f-504684392b4d</elementGuidId>
+   <elementGuidId>e65d8568-8bfe-4bbb-884d-4dc4374afd2a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
+         <value>//div[@id='s2id_PTI_OSS_Setup_DepartmentGrid0_QuickFilter_Username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
-      <webElementGuid>c0f25be2-dac1-4bee-a5fc-6baf29f3ab04</webElementGuid>
+      <value>//div[@id='s2id_PTI_OSS_Setup_DepartmentGrid0_QuickFilter_Username']</value>
+      <webElementGuid>64a58900-6abb-4529-baed-f1becafd5ea3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

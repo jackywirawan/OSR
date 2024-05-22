@@ -4,8 +4,12 @@
    <name>OSR  - Protelindo</name>
    <tag></tag>
    <UUID>24513e20-eee7-46ba-bd8b-55d5e5b70577</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\Jacky Rachmat W\Katalon Studio\OSR  - Protelindo\OSR  - Protelindo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

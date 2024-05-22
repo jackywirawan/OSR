@@ -33,7 +33,22 @@ WebUI.sendKeys(findTestObject('MenuSetup/Departement/inputFilter'), Keys.chord(K
 
 String textOnSearch = WebUI.getText(findTestObject('Object Repository/MenuSetup/Departement/getText(inputFilter)'))
 
-assert (textOnSearch != null) && !(textOnSearch.isEmpty()) : 'Text on search input filter should not be null or empty'
+int iterations = 6
+
+for (int i = 2; i < iterations + 1; i++) {
+	
+	TestData departmentUser = findTestData('Data Files/Departement')
+	
+	String code = departmentUser.getValue('code', i)
+	
+	WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/elementSearch', [('codeclick') : code]))
+	
+	assert textOnSearch
+	
+	WebUI.click(findTestObject('Object Repository/MenuSetup/Departement/btnClose'))
+}
+
+//assert (textOnSearch != null) && !(textOnSearch.isEmpty()) : 'Text on search input filter should not be null or empty'
 
 
 

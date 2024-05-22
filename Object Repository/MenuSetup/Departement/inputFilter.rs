@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnSave</name>
+   <name>inputFilter</name>
    <tag></tag>
-   <elementGuidId>92a3197a-622b-4e90-b08f-504684392b4d</elementGuidId>
+   <elementGuidId>768bc071-52ba-41cd-bd32-8d48bed01749</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
+         <value>//input[@id='s2id_autogen1_search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class='buttons-inner']//child::span[text()='Save']</value>
-      <webElementGuid>c0f25be2-dac1-4bee-a5fc-6baf29f3ab04</webElementGuid>
+      <value>//input[@id='s2id_autogen1_search']</value>
+      <webElementGuid>6f58dfb8-2a15-49e5-800b-461ca4904c6a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
