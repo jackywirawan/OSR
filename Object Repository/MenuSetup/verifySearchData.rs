@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verifySearchData</name>
+   <tag></tag>
+   <elementGuidId>409c9e81-96e3-4c30-8b76-338a8c309225</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[text()='${resultSearchData}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[text()='${resultSearchData}']</value>
+      <webElementGuid>df6764ef-190a-45e4-a850-01cbc5100052</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
