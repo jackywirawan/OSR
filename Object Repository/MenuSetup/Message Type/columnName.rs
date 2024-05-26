@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>columnName</name>
+   <tag></tag>
+   <elementGuidId>e9cde266-a75c-4a35-8b91-eb0ad650be44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[text()='${namacolumn}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[text()='${namacolumn}']</value>
+      <webElementGuid>7f45c17e-0681-4007-a7dd-d0c3f11e5915</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

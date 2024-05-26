@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Message Type (Filter)</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>63bb5c1f-7738-481c-ab3d-22b14565256e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Seq+No</data>
+   <data>Name</data>
+   <data>Remarks</data>
+   <data>Need+Approval</data>
+   <data>Site+Emergency+Flag</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>ColumnFilter</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

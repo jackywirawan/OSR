@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Message Type</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>4f647583-5c39-4698-bc01-192947216cdf</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>14 Test+Create ini+data+test</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>seq</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>remarks</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
